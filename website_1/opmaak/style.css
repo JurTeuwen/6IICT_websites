@@ -1,5 +1,5 @@
 body {
-    background-image: url("../afbeeldingen/achtergrond.jpg");
+    background-image: url("../afbeeldingen/veld.png");
     background-size: cover;
 }
 
@@ -14,9 +14,14 @@ header, footer {
     margin-right: -8px;
 }
 
-header, footer {
-    background-color: white;
+header {
+    background-color: rgba(93, 75, 232, 0.386);
     padding: 5px;
+}
+footer {
+    background-color: rgba(93, 75, 232, 0);
+    padding: 5px;
+    margin-top: 770px;
 }
 
 header {
@@ -32,17 +37,17 @@ nav {
 .menu {
     display: block;
     width: 70px;
-    background-color: #64F5E6;
+    background-color: #d61a1a;
     /* lichtblauw */
     text-decoration: none;
     padding: 10px;
     margin: 10px;
-    color: black;
+    color: rgb(52, 2, 252);
 }
 
 .menu:hover {
     background-color: black;
-    color: #64F5E6;
+    color: #ed0e0e5b;
     /* lichtblauw */
 }
 
@@ -57,7 +62,7 @@ article {
     width: 85%;
     margin: 10px;
     padding: 10px;
-    background-color: #64F5E6;
+    background-color: #ff00005c;
     /* lichtblauw */
 }
 
