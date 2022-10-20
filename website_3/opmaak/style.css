@@ -1,3 +1,9 @@
+body {
+    background-image: url("../afbeeldingen/zonsondergang.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+}
+
 footer, header {
 	text-align: center;
 	background-color: white;
@@ -36,3 +42,8 @@ img.vlag {
 	border-style: solid;
 	border-color: black; 
 	}
+img.foto {
+	width: 450px;
+	height: 300px;
+	}
+	
